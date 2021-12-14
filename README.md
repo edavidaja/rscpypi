@@ -24,6 +24,7 @@ you need a way to serve python packages that you don't wish to push to PyPI
 ## limitations / to fix / extensions
 
 i've attempted to set the server up for htpasswd access so packages can be deployed via the command line, but so far this doesn't work, so packages are being uploaded as part of the connect bundle
-    - mostly this throws 405 errors, whether I use `poetry publish` or `twine`
-    - [pypi-uploader](https://pypi.org/project/pypi-uploader/) may be an alternative to explore
-    - perhaps more configuration of the built in bottle server is required
+  
+- mostly this throws 405 errors, whether I use `poetry publish` or `twine`  
+- [pypi-uploader](https://pypi.org/project/pypi-uploader/) may be an alternative to explore
+- perhaps more configuration of the built in bottle server is required
