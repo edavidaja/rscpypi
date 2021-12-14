@@ -1,0 +1,6 @@
+click==8.0.3
+passlib==1.7.4
+pypiserver==1.4.2
+rsconnect-python==1.6.0
+six==1.16.0
+watchdog==2.1.6
